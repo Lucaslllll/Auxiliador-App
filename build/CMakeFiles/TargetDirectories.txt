@@ -1,0 +1,3 @@
+/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/build/CMakeFiles/rebuild_cache.dir
+/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/build/CMakeFiles/edit_cache.dir
+/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/build/CMakeFiles/program.dir
