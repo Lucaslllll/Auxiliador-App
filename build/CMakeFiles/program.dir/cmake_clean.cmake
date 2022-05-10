@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/program.dir/src/Auxiliador.cpp.o"
+  "CMakeFiles/program.dir/src/AuxiliadorDisplay.cpp.o"
   "CMakeFiles/program.dir/src/main.cpp.o"
   "program"
   "program.pdb"

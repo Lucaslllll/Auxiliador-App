@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/src/main.cpp
-iostream
--
+../include/AuxiliadorDisplay.hpp
 gtkmm.h
 -
-gtkmm/application.h
+iostream
 -
-gtkmm/window.h
+vector
 -
+string
+-
+fstream
+-
+
+/home/brinfo-linux/Documentos/AuxiliadorApp/src/AuxiliadorDisplay.cpp
+AuxiliadorDisplay.hpp
+/home/brinfo-linux/Documentos/AuxiliadorApp/src/AuxiliadorDisplay.hpp
 
 /usr/include/atk-1.0/atk/atk-enum-types.h
 atk/atkversion.h

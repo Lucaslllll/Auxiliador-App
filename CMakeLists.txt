@@ -30,7 +30,7 @@ add_executable( program
 
                 src/main.cpp
 
-                src/Auxiliador.cpp )
+                src/AuxiliadorDisplay.cpp )
 
 
 # gtkmm

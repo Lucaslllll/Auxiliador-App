@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/src/Auxiliador.cpp" "/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/build/CMakeFiles/program.dir/src/Auxiliador.cpp.o"
-  "/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/src/main.cpp" "/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/build/CMakeFiles/program.dir/src/main.cpp.o"
+  "/home/brinfo-linux/Documentos/AuxiliadorApp/src/AuxiliadorDisplay.cpp" "/home/brinfo-linux/Documentos/AuxiliadorApp/build/CMakeFiles/program.dir/src/AuxiliadorDisplay.cpp.o"
+  "/home/brinfo-linux/Documentos/AuxiliadorApp/src/main.cpp" "/home/brinfo-linux/Documentos/AuxiliadorApp/build/CMakeFiles/program.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

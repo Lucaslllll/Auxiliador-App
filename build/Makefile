@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/brinfo-linux/Área de Trabalho/AuxiliadorApp"
+CMAKE_SOURCE_DIR = /home/brinfo-linux/Documentos/AuxiliadorApp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/build"
+CMAKE_BINARY_DIR = /home/brinfo-linux/Documentos/AuxiliadorApp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/build/CMakeFiles" "/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brinfo-linux/Documentos/AuxiliadorApp/build/CMakeFiles /home/brinfo-linux/Documentos/AuxiliadorApp/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/brinfo-linux/Área de Trabalho/AuxiliadorApp/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brinfo-linux/Documentos/AuxiliadorApp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ program/fast:
 	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build
 .PHONY : program/fast
 
-src/Auxiliador.o: src/Auxiliador.cpp.o
+src/AuxiliadorDisplay.o: src/AuxiliadorDisplay.cpp.o
 
-.PHONY : src/Auxiliador.o
+.PHONY : src/AuxiliadorDisplay.o
 
 # target to build an object file
-src/Auxiliador.cpp.o:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Auxiliador.cpp.o
-.PHONY : src/Auxiliador.cpp.o
+src/AuxiliadorDisplay.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/AuxiliadorDisplay.cpp.o
+.PHONY : src/AuxiliadorDisplay.cpp.o
 
-src/Auxiliador.i: src/Auxiliador.cpp.i
+src/AuxiliadorDisplay.i: src/AuxiliadorDisplay.cpp.i
 
-.PHONY : src/Auxiliador.i
+.PHONY : src/AuxiliadorDisplay.i
 
 # target to preprocess a source file
-src/Auxiliador.cpp.i:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Auxiliador.cpp.i
-.PHONY : src/Auxiliador.cpp.i
+src/AuxiliadorDisplay.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/AuxiliadorDisplay.cpp.i
+.PHONY : src/AuxiliadorDisplay.cpp.i
 
-src/Auxiliador.s: src/Auxiliador.cpp.s
+src/AuxiliadorDisplay.s: src/AuxiliadorDisplay.cpp.s
 
-.PHONY : src/Auxiliador.s
+.PHONY : src/AuxiliadorDisplay.s
 
 # target to generate assembly for a file
-src/Auxiliador.cpp.s:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Auxiliador.cpp.s
-.PHONY : src/Auxiliador.cpp.s
+src/AuxiliadorDisplay.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/AuxiliadorDisplay.cpp.s
+.PHONY : src/AuxiliadorDisplay.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... program"
-	@echo "... src/Auxiliador.o"
-	@echo "... src/Auxiliador.i"
-	@echo "... src/Auxiliador.s"
+	@echo "... src/AuxiliadorDisplay.o"
+	@echo "... src/AuxiliadorDisplay.i"
+	@echo "... src/AuxiliadorDisplay.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
