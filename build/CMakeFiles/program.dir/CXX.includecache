@@ -9,6 +9,28 @@
 ../include/AuxiliadorDisplay.hpp
 gtkmm.h
 -
+gtkmm/application.h
+-
+gtkmm/window.h
+-
+gtkmm/fixed.h
+-
+gtkmm/box.h
+-
+gtkmm/alignment.h
+-
+gtkmm/entry.h
+-
+gtkmm/label.h
+-
+gtkmm/button.h
+-
+gtkmm/frame.h
+-
+gtkmm/linkbutton.h
+-
+gtkmm/messagedialog.h
+-
 iostream
 -
 vector
@@ -19,6 +41,18 @@ fstream
 -
 
 /home/brinfo-linux/Documentos/AuxiliadorApp/src/AuxiliadorDisplay.cpp
+AuxiliadorDisplay.hpp
+/home/brinfo-linux/Documentos/AuxiliadorApp/src/AuxiliadorDisplay.hpp
+
+/home/brinfo-linux/Documentos/AuxiliadorApp/src/main.cpp
+iostream
+-
+gtkmm.h
+-
+gtkmm/application.h
+-
+gtkmm/window.h
+-
 AuxiliadorDisplay.hpp
 /home/brinfo-linux/Documentos/AuxiliadorApp/src/AuxiliadorDisplay.hpp
 
