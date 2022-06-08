@@ -42,6 +42,7 @@ void DisplayTarefas::set_hierarchy(){
 	m_fixed.add(m_frame3);
 	m_fixed.add(m_frame4);
 	m_fixed.add(m_frame5);
+	m_fixed.add(m_frame6);
 
 	// m_fixed.add(m_box4);
 	// 						W	H
@@ -49,6 +50,7 @@ void DisplayTarefas::set_hierarchy(){
 	m_fixed.move(m_frame3, 220, 140);
 	m_fixed.move(m_frame4, 220, 360);
 	m_fixed.move(m_frame5, 320, 360);
+	m_fixed.move(m_frame6, 220, 420);
 	// m_fixed.move(m_box4, 6, 300);
 
 
@@ -115,7 +117,7 @@ void DisplayTarefas::set_hierarchy(){
 	m_box4.add(m_alignment4);
 	m_box4.add(m_label4);
 	m_box4.add(button_adicionar);
-	m_box4.pack_start(m_entry1, true, true, 0);
+	// m_box4.add(m_entry1);
 	// m_box4.pack_start(button_settings, true, true, 0);
 
 
@@ -135,7 +137,18 @@ void DisplayTarefas::set_hierarchy(){
 	m_grid_opcoes.add(m_frame5);
 
 
+	// frame das adiçoes, frame 6
+	m_frame6.add(m_box6);
 
+	// Entry set resolution right
+	m_entry1.set_size_request(200);
+
+	// Box 6
+	m_box6.add(m_alignment6);
+	m_box6.add(m_entry1);
+
+	// grid para os botões de adição e a entrada de dados para salvar
+	m_grid_adicionar.add(m_frame6);
 
 
 }
@@ -314,16 +327,17 @@ void DisplayTarefas::draw_widgets(){
 }	
 
 // nao podem ser metodos
-void on_help_button(){
+void DisplayTarefas::on_help_button(){
 	cout << "a";
 };
-void on_setting_button(){
+void DisplayTarefas::on_setting_button(){
 	cout << "a";	
 };
-void on_adicionar_button(){
-	cout << "a";
+void DisplayTarefas::on_adicionar_button(){
+	string a = m_entry1.get_text();
+	cout << a;
 };
-void on_remover_button(){
+void DisplayTarefas::on_remover_button(){
 	cout << "a";
 };
 
